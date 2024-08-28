@@ -75,7 +75,7 @@ def test_task_three():
     # Outputs
     output_array = [
         "{",
-        "  id: 6,",
+        "  id: '6',",  # Cambiar a cadena
         "  first_name: 'Kai',",
         "  last_name: 'Nathaniel',",
         "  email: 'kai.n@example.org'",
@@ -93,27 +93,27 @@ def test_task_four():
 
     # Outputs
     output_array = [
-        "[",
+       "[",
         "  {",
-        "    id: 1,",
+        "    id: '1',",
         "    first_name: 'Joshua',",
         "    last_name: 'Diaz',",
         "    email: 'j3@example.com'",
         "  },",
         "  {",
-        "    id: 2,",
+        "    id: '2',",
         "    first_name: 'Song',",
         "    last_name: 'Gonzalez',",
         "    email: 'sgo@example.com'",
         "  },",
         "  {",
-        "    id: 3,",
+        "    id: '3',",
         "    first_name: 'Milagro',",
         "    last_name: 'Juarez',",
         "    email: 'miljua23@example.com'",
         "  },",
         "  {",
-        "    id: 4,",
+        "    id: '4',",
         "    first_name: 'Olivia',",
         "    last_name: 'Brown',",
         "    email: 'olibrown432@example.net'",
